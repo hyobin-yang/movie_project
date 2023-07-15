@@ -98,6 +98,9 @@ DATABASES = {
     }
 }
 
+
+
+
 AUTH_USER_MODEL = 'members.CustomUser'
 
 # Password validation
