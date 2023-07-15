@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m(s8p9824bywx=ios7+r!^ucc=zg^xo(9y-z9!yir!q_4h21gt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['port-0-movie-assignment-kvmh2mlk3j7485.sel4.cloudtype.app', '127.0.0.1']
 
 
 # Application definition
@@ -97,6 +97,17 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql', 
+#         'NAME': '',
+#         'USER': 'root',
+#         'PASSWORD': '1234',
+#         'HOST': 'svc.sel3.cloudtype.app',
+#         'PORT': '31539'
+#     }
+# }
 
 
 
